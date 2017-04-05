@@ -57,7 +57,9 @@ XXX.XXX.X.XX
 
 #### Helpful Resources:
 https://automatetheboringstuff.com/#toc
+
 https://www.bro.org/sphinx/logs/index.html#working-with-log-files
+
 https://duckduckgo.com/
 
 ##### Make sure to check back in for additional clues as needed.
