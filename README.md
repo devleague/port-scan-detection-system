@@ -14,7 +14,7 @@ ___
 We need you to take the following steps so that we can continue to ensure peace within the galaxy:
 
 1. Create a new directory(folder) called `devleague_discovery` on your computer that you will use for all files related to your analysis.
-1. We have given you a download of our provided network SSH log file to download to your new directory at this link: [SSH Log file](https://raw.githubusercontent.com/devleague/cyber-assessment/master/data/ssh.log)
+1. We have given you a download of our provided network SSH log file to download to your new directory at this link: [SSH Log file](https://raw.githubusercontent.com/devleague/cyber-assessment/master/data/ssh.log.txt)
 1. After you download the log file, we need you to use your Python skills to write a script that will automatically find instances of malicious activity in our logs.
 2. Create a Python file named `scanners.py` where you will write your Python code that will read the `ssh.log` file from the file system
 2. When running your Python script, it should create a text file named `scanners_found.txt` that reads all rows in the file and searches for certain text, and gives us the following summary information after analyzing the log file:
@@ -32,7 +32,7 @@ The following resources may help you in your mission:
 import os
 import re
 
-filePath = "./ssh.log"
+filePath = "./ssh.log.txt"
 fd = open(filePath, 'r')
 
 with fd as reader :
