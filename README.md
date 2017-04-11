@@ -12,7 +12,6 @@ __SECRET KEY:__ If they're scanning you, it would probably be using a tool calle
 ___
 ### Your Mission
 We need you to take the following steps so that we can continue to ensure peace within the galaxy:
-
 1. Create a new directory(folder) called `devleague_discovery` on your computer that you will use for all files related to your analysis.
 1. We have given you a download of our provided network SSH log file to download to your new directory at this link: [SSH Log file](https://raw.githubusercontent.com/devleague/cyber-assessment/master/data/ssh.log.txt)
 1. After you download the log file, we need you to use your Python skills to write a script that will automatically find instances of malicious activity in our logs.
@@ -21,7 +20,8 @@ We need you to take the following steps so that we can continue to ensure peace 
     - Displays a count of how many scan events occurred in the logs
     - Displays a list of all host ip addresses where the scans originated from
     - Displays a list of all host ip addresses where the scans were performed against
-1. Your final report should include the `scanners.py` and `scanners.txt` files, as well as a summary of any new facts you discovered in your analysis and the procedures you took to complete the challenge. If you could also make some recommendations to keep our network secure we will be able to sleep at night.
+1. Your final report should include the `scanners.py` and `scanners.txt` files, as well as a summary of any new facts you discovered in your analysis and the procedures you took to complete the challenge.
+1. If you could also make some recommendations to keep our network secure we will be able to sleep at night.
 1. Provide us with the necessary report documents in a zip archive when completed.
 
 ___
@@ -50,7 +50,7 @@ with fd as reader :
   ...
 
 [scan destination hosts]
-XXX.XXX.X.XX
+  XXX.XXX.X.XX
   ...
   ...
 ```
